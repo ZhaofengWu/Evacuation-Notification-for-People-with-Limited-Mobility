@@ -1,5 +1,5 @@
 //
-//  ViewController.h
+//  InformationTableViewController.h
 //  Emercuate
 //
 //  Created by 吴肇锋 on 1/30/16.
@@ -7,9 +7,8 @@
 //
 
 #import <UIKit/UIKit.h>
+#import "Information.h"
 
-@interface ViewController : UIViewController
-
+@interface InformationTableViewController : UITableViewController
 
 @end
-
