@@ -53,7 +53,7 @@
     
     [Information initialize];
     NSDictionary *info = [Information information];
-    NSString *message = [NSString stringWithFormat:@"My name is %@ - I need help.\nAddress: %@\nRoom/Level: %@\nCondition: %@\nMedical ID: %@\nComment: %@\nLongtitude: %.10f\nLatitude: %.10f", [info objectForKey:@"Name"], [[info objectForKey:@"Address"] objectForKey:[Information chosenAddressName]][0], [[info objectForKey:@"Address"] objectForKey:[Information chosenAddressName]][1], [info objectForKey:@"Condition"], [info objectForKey:@"Medical ID"], [info objectForKey:@"Comment"], self.longtitude, self.latitude];
+    NSString *message = [NSString stringWithFormat:@"My name is %@ - I need help.\nAddress: %@\nRoom/Level: %@\nCondition: %@\nMedical ID: %@\nComments: %@\nLongtitude: %.10f\nLatitude: %.10f", [info objectForKey:@"Name"], [[info objectForKey:@"Address"] objectForKey:[Information chosenAddressName]][0], [[info objectForKey:@"Address"] objectForKey:[Information chosenAddressName]][1], [info objectForKey:@"Condition"], [info objectForKey:@"Medical ID"], [info objectForKey:@"Comments"], self.longtitude, self.latitude];
     
     MFMessageComposeViewController *messageController = [[MFMessageComposeViewController alloc] init];
     messageController.messageComposeDelegate = self;
