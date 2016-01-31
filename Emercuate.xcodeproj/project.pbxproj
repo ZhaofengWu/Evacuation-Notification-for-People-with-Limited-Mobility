@@ -16,8 +16,8 @@
 		C360EF711C5D4C2800F50545 /* EmercuateTests.m in Sources */ = {isa = PBXBuildFile; fileRef = C360EF701C5D4C2800F50545 /* EmercuateTests.m */; };
 		C360EF7C1C5D4C2800F50545 /* EmercuateUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = C360EF7B1C5D4C2800F50545 /* EmercuateUITests.m */; };
 		C360EF931C5D53A300F50545 /* InformationTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C360EF921C5D53A300F50545 /* InformationTableViewController.m */; };
-		C360EF991C5D626600F50545 /* Information.m in Sources */ = {isa = PBXBuildFile; fileRef = C360EF981C5D626600F50545 /* Information.m */; };
 		C360EF9B1C5D8DC100F50545 /* MessageUI.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C360EF9A1C5D8DC100F50545 /* MessageUI.framework */; };
+		C360EF9E1C5DA36400F50545 /* Information.m in Sources */ = {isa = PBXBuildFile; fileRef = C360EF9D1C5DA36400F50545 /* Information.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -56,9 +56,9 @@
 		C360EF7D1C5D4C2800F50545 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		C360EF911C5D53A300F50545 /* InformationTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = InformationTableViewController.h; sourceTree = "<group>"; };
 		C360EF921C5D53A300F50545 /* InformationTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = InformationTableViewController.m; sourceTree = "<group>"; };
-		C360EF971C5D626600F50545 /* Information.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = Information.h; path = ../Information.h; sourceTree = "<group>"; };
-		C360EF981C5D626600F50545 /* Information.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = Information.m; path = ../Information.m; sourceTree = "<group>"; };
 		C360EF9A1C5D8DC100F50545 /* MessageUI.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MessageUI.framework; path = System/Library/Frameworks/MessageUI.framework; sourceTree = SDKROOT; };
+		C360EF9C1C5DA36400F50545 /* Information.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Information.h; sourceTree = "<group>"; };
+		C360EF9D1C5DA36400F50545 /* Information.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Information.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -113,8 +113,8 @@
 			children = (
 				C360EF591C5D4C2800F50545 /* AppDelegate.h */,
 				C360EF5A1C5D4C2800F50545 /* AppDelegate.m */,
-				C360EF971C5D626600F50545 /* Information.h */,
-				C360EF981C5D626600F50545 /* Information.m */,
+				C360EF9C1C5DA36400F50545 /* Information.h */,
+				C360EF9D1C5DA36400F50545 /* Information.m */,
 				C360EF5C1C5D4C2800F50545 /* MainViewController.h */,
 				C360EF5D1C5D4C2800F50545 /* MainViewController.m */,
 				C360EF911C5D53A300F50545 /* InformationTableViewController.h */,
@@ -285,7 +285,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				C360EF931C5D53A300F50545 /* InformationTableViewController.m in Sources */,
-				C360EF991C5D626600F50545 /* Information.m in Sources */,
+				C360EF9E1C5DA36400F50545 /* Information.m in Sources */,
 				C360EF5E1C5D4C2800F50545 /* MainViewController.m in Sources */,
 				C360EF5B1C5D4C2800F50545 /* AppDelegate.m in Sources */,
 				C360EF581C5D4C2800F50545 /* main.m in Sources */,
@@ -514,6 +514,7 @@
 				C360EF821C5D4C2800F50545 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		C360EF831C5D4C2800F50545 /* Build configuration list for PBXNativeTarget "EmercuateTests" */ = {
 			isa = XCConfigurationList;
@@ -522,6 +523,7 @@
 				C360EF851C5D4C2800F50545 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		C360EF861C5D4C2800F50545 /* Build configuration list for PBXNativeTarget "EmercuateUITests" */ = {
 			isa = XCConfigurationList;
@@ -530,6 +532,7 @@
 				C360EF881C5D4C2800F50545 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
